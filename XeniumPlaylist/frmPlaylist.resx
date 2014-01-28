@@ -1,0 +1,578 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lvwPlaylist.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="btnRenamePlaylist.ImageKey" xml:space="preserve">
+    <value>You should drag files from {0} drive!</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="cboDrive.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 24</value>
+  </data>
+  <data name="btnRemovePlaylist.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="lblPlaylistSet.Text" xml:space="preserve">
+    <value>Playlists on the drive</value>
+  </data>
+  <data name="cboDrive.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 27</value>
+  </data>
+  <data name="lblIntDrive.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 17</value>
+  </data>
+  <data name="&gt;&gt;cboPlaylistSet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblIntDrive.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;cboIntDrive.Name" xml:space="preserve">
+    <value>cboIntDrive</value>
+  </data>
+  <data name="&gt;&gt;btnRemovePlaylist.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboDrive.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblDrive.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;btnSavePlaylistChanges.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnRenamePlaylist.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="cboDrive.ToolTip" xml:space="preserve">
+    <value>Phone drive in the computer (if drop-down list is empty connect phone to USB and open list again)</value>
+  </data>
+  <data name="btnCancelPlaylistChanges.Location" type="System.Drawing.Point, System.Drawing">
+    <value>748, 27</value>
+  </data>
+  <data name="lvwPlaylist.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 57</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Philips Xenium phones playlist editor</value>
+  </data>
+  <data name="&gt;&gt;btnCancelPlaylistChanges.Name" xml:space="preserve">
+    <value>btnCancelPlaylistChanges</value>
+  </data>
+  <data name="btnRenamePlaylist.Text" xml:space="preserve">
+    <value>~</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblIntDrive.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cboIntDrive.Items1" xml:space="preserve">
+    <value>E:\</value>
+  </data>
+  <data name="cboIntDrive.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 24</value>
+  </data>
+  <data name="btnCancelPlaylistChanges.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="lvwPlaylist.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;btnRenamePlaylist.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblDrive.ImageKey" xml:space="preserve">
+    <value>(none)</value>
+  </data>
+  <data name="cboDrive.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lvwPlaylist.Name" xml:space="preserve">
+    <value>lvwPlaylist</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="cboPlaylistSet.ToolTip" xml:space="preserve">
+    <value>You should drag files from {0} drive!</value>
+  </data>
+  <data name="dlgAudioFolder.Description" xml:space="preserve">
+    <value>You should drag files from {0} drive!</value>
+  </data>
+  <data name="&gt;&gt;btnRemovePlaylist.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnRenamePlaylist.ToolTip" xml:space="preserve">
+    <value>Rename playlist</value>
+  </data>
+  <data name="&gt;&gt;lblPlaylistSet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCreatePlaylist.Name" xml:space="preserve">
+    <value>btnCreatePlaylist</value>
+  </data>
+  <data name="&gt;&gt;cboIntDrive.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSavePlaylistChanges.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="btnCreatePlaylist.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 7.8pt, style=Bold</value>
+  </data>
+  <data name="cboPlaylistSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 27</value>
+  </data>
+  <data name="btnCancelPlaylistChanges.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;cboDrive.Name" xml:space="preserve">
+    <value>cboDrive</value>
+  </data>
+  <data name="btnCreatePlaylist.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btnSavePlaylistChanges.ImageKey" xml:space="preserve">
+    <value>You should drag files from {0} drive!</value>
+  </data>
+  <data name="&gt;&gt;ttpCommon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCreatePlaylist.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="btnSavePlaylistChanges.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;ttpCommon.Name" xml:space="preserve">
+    <value>ttpCommon</value>
+  </data>
+  <data name="&gt;&gt;lblPlaylistSet.Name" xml:space="preserve">
+    <value>lblPlaylistSet</value>
+  </data>
+  <data name="&gt;&gt;btnSavePlaylistChanges.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnSavePlaylistChanges.Location" type="System.Drawing.Point, System.Drawing">
+    <value>724, 27</value>
+  </data>
+  <data name="btnSavePlaylistChanges.Text" xml:space="preserve">
+    <value>v</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmPlaylist</value>
+  </data>
+  <data name="lblDrive.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 7</value>
+  </data>
+  <data name="&gt;&gt;lblPlaylistSet.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnCancelPlaylistChanges.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnRemovePlaylist.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;btnRenamePlaylist.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cboDrive.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDrive.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;clhName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblIntDrive.Name" xml:space="preserve">
+    <value>lblIntDrive</value>
+  </data>
+  <data name="lvwPlaylist.ToolTip" xml:space="preserve">
+    <value>Add audio files by dragging them from Windows Explorer folders.
+Remove files by pressing "Delete" key.
+Rearrange files by drag and drop selected items within a list.</value>
+  </data>
+  <data name="&gt;&gt;clhName.Name" xml:space="preserve">
+    <value>clhName</value>
+  </data>
+  <data name="btnCreatePlaylist.Location" type="System.Drawing.Point, System.Drawing">
+    <value>648, 27</value>
+  </data>
+  <data name="&gt;&gt;cboPlaylistSet.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnRenamePlaylist.Name" xml:space="preserve">
+    <value>btnRenamePlaylist</value>
+  </data>
+  <data name="lblDrive.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="&gt;&gt;btnCreatePlaylist.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblPlaylistSet.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnCreatePlaylist.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnSavePlaylistChanges.ToolTip" xml:space="preserve">
+    <value>Save playlist changes</value>
+  </data>
+  <data name="lblDrive.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 17</value>
+  </data>
+  <data name="&gt;&gt;btnCancelPlaylistChanges.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnRemovePlaylist.Name" xml:space="preserve">
+    <value>btnRemovePlaylist</value>
+  </data>
+  <data name="btnRenamePlaylist.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="btnRemovePlaylist.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="&gt;&gt;btnCancelPlaylistChanges.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lvwPlaylist.Size" type="System.Drawing.Size, System.Drawing">
+    <value>760, 401</value>
+  </data>
+  <data name="btnCancelPlaylistChanges.Text" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="cboIntDrive.Items" xml:space="preserve">
+    <value>C:\</value>
+  </data>
+  <data name="&gt;&gt;cboIntDrive.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btnCancelPlaylistChanges.ImageKey" xml:space="preserve">
+    <value>You should drag files from {0} drive!</value>
+  </data>
+  <data name="&gt;&gt;lvwPlaylist.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCreatePlaylist.Text" xml:space="preserve">
+    <value>+</value>
+  </data>
+  <data name="&gt;&gt;btnSavePlaylistChanges.Name" xml:space="preserve">
+    <value>btnSavePlaylistChanges</value>
+  </data>
+  <data name="cboPlaylistSet.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;lblDrive.Name" xml:space="preserve">
+    <value>lblDrive</value>
+  </data>
+  <data name="&gt;&gt;btnCreatePlaylist.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnRemovePlaylist.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="btnCancelPlaylistChanges.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="cboIntDrive.Location" type="System.Drawing.Point, System.Drawing">
+    <value>103, 27</value>
+  </data>
+  <data name="&gt;&gt;btnCreatePlaylist.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnSavePlaylistChanges.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 7.8pt, style=Bold</value>
+  </data>
+  <data name="btnSavePlaylistChanges.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="btnRemovePlaylist.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="btnRemovePlaylist.ImageKey" xml:space="preserve">
+    <value>You should drag files from {0} drive!</value>
+  </data>
+  <data name="&gt;&gt;lblPlaylistSet.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="btnCreatePlaylist.ToolTip" xml:space="preserve">
+    <value>Create playlist...</value>
+  </data>
+  <data name="btnCancelPlaylistChanges.ToolTip" xml:space="preserve">
+    <value>Cancel playlist changes</value>
+  </data>
+  <data name="lblPlaylistSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 17</value>
+  </data>
+  <data name="btnSavePlaylistChanges.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="lblDrive.Text" xml:space="preserve">
+    <value>Drive</value>
+  </data>
+  <data name="&gt;&gt;cboDrive.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboPlaylistSet.Name" xml:space="preserve">
+    <value>cboPlaylistSet</value>
+  </data>
+  <data name="cboPlaylistSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>446, 24</value>
+  </data>
+  <data name="lblPlaylistSet.ImageKey" xml:space="preserve">
+    <value>(none)</value>
+  </data>
+  <data name="&gt;&gt;lvwPlaylist.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblPlaylistSet.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnRenamePlaylist.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 7.8pt, style=Bold</value>
+  </data>
+  <data name="lblPlaylistSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>191, 7</value>
+  </data>
+  <data name="lblIntDrive.ImageKey" xml:space="preserve">
+    <value>(none)</value>
+  </data>
+  <data name="dlgAudioFolder.SelectedPath" xml:space="preserve">
+    <value>You should drag files from {0} drive!</value>
+  </data>
+  <data name="lblIntDrive.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value>You should drag files from {0} drive!</value>
+  </data>
+  <data name="&gt;&gt;btnRenamePlaylist.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblIntDrive.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 7</value>
+  </data>
+  <data name="btnCreatePlaylist.ImageKey" xml:space="preserve">
+    <value>You should drag files from {0} drive!</value>
+  </data>
+  <data name="lblIntDrive.Text" xml:space="preserve">
+    <value>Int. drive</value>
+  </data>
+  <data name="btnCreatePlaylist.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="&gt;&gt;lvwPlaylist.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnCreatePlaylist.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnRenamePlaylist.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>784, 470</value>
+  </data>
+  <data name="&gt;&gt;btnSavePlaylistChanges.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnRenamePlaylist.Location" type="System.Drawing.Point, System.Drawing">
+    <value>696, 27</value>
+  </data>
+  <data name="btnRemovePlaylist.ToolTip" xml:space="preserve">
+    <value>Remove playlist</value>
+  </data>
+  <data name="&gt;&gt;lblDrive.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblIntDrive.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dlgAudioFolder.Name" xml:space="preserve">
+    <value>dlgAudioFolder</value>
+  </data>
+  <data name="cboIntDrive.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblIntDrive.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblDrive.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnRenamePlaylist.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="clhName.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="cboPlaylistSet.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btnRemovePlaylist.Location" type="System.Drawing.Point, System.Drawing">
+    <value>672, 27</value>
+  </data>
+  <data name="&gt;&gt;cboPlaylistSet.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;btnRemovePlaylist.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnCancelPlaylistChanges.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 7.8pt, style=Bold</value>
+  </data>
+  <data name="btnRemovePlaylist.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 7.8pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;cboIntDrive.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dlgAudioFolder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cboIntDrive.ToolTip" xml:space="preserve">
+    <value>Internal name of the drive in the phone (detected automatically but can be changed manually)</value>
+  </data>
+  <data name="&gt;&gt;btnCancelPlaylistChanges.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="ttpCommon.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>164, 17</value>
+  </metadata>
+  <metadata name="dlgAudioFolder.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>
